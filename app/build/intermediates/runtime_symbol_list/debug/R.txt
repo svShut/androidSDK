@@ -2469,6 +2469,7 @@ int drawable ic_mtrl_checked_circle 0x7f07006b
 int drawable ic_mtrl_chip_checked_black 0x7f07006c
 int drawable ic_mtrl_chip_checked_circle 0x7f07006d
 int drawable ic_mtrl_chip_close_circle 0x7f07006e
+int drawable like 0x7f07009e
 int drawable m3_appbar_background 0x7f07006f
 int drawable m3_popupmenu_background_overlay 0x7f070070
 int drawable m3_radiobutton_ripple 0x7f070071
@@ -2512,10 +2513,12 @@ int drawable notification_template_icon_low_bg 0x7f070095
 int drawable notification_tile_bg 0x7f070096
 int drawable notify_panel_notification_icon_bg 0x7f070097
 int drawable post_avatar_foreground 0x7f07009d
+int drawable repost 0x7f07009f
 int drawable test_custom_background 0x7f070098
 int drawable test_level_drawable 0x7f070099
 int drawable tooltip_frame_dark 0x7f07009a
 int drawable tooltip_frame_light 0x7f07009b
+int drawable views 0x7f0700a0
 int id ALT 0x7f080000
 int id BOTTOM_END 0x7f080001
 int id BOTTOM_START 0x7f080002
@@ -2592,6 +2595,9 @@ int id aligned 0x7f080048
 int id all 0x7f080049
 int id allStates 0x7f08004a
 int id always 0x7f08004b
+int id amountLike 0x7f0801e8
+int id amountRepost 0x7f0801e9
+int id amountRepost3 0x7f0801ea
 int id animateToEnd 0x7f08004c
 int id animateToStart 0x7f08004d
 int id antiClockwise 0x7f08004e
@@ -2614,8 +2620,10 @@ int id bounce 0x7f08005e
 int id bounceBoth 0x7f08005f
 int id bounceEnd 0x7f080060
 int id bounceStart 0x7f080061
+int id buttonLike 0x7f0801eb
 int id buttonMenu 0x7f0801e4
 int id buttonPanel 0x7f080062
+int id buttonRepost 0x7f0801ec
 int id cache_measures 0x7f080063
 int id callMeasure 0x7f080064
 int id cancel_button 0x7f080065
@@ -2743,6 +2751,7 @@ int id ignore 0x7f0800de
 int id ignoreRequest 0x7f0800df
 int id image 0x7f0800e0
 int id imageView 0x7f0801e5
+int id imageViews 0x7f0801ed
 int id immediateStop 0x7f0800e1
 int id included 0x7f0800e2
 int id info 0x7f0800e3
@@ -2857,6 +2866,7 @@ int id percent 0x7f08014f
 int id pin 0x7f080150
 int id position 0x7f080151
 int id postLayout 0x7f080152
+int id postText 0x7f0801ee
 int id progress_circular 0x7f080153
 int id progress_horizontal 0x7f080154
 int id radio 0x7f080155
@@ -3219,6 +3229,9 @@ int string abc_searchview_description_voice 0x7f0e0017
 int string abc_shareactionprovider_share_with 0x7f0e0018
 int string abc_shareactionprovider_share_with_application 0x7f0e0019
 int string abc_toolbar_collapse_description 0x7f0e001a
+int string amountLike 0x7f0e007d
+int string amountRepost 0x7f0e007e
+int string amountViews 0x7f0e007f
 int string androidx_startup 0x7f0e001b
 int string app_name 0x7f0e001c
 int string appbar_scrolling_view_behavior 0x7f0e001d
@@ -3315,6 +3328,7 @@ int string path_password_eye 0x7f0e0075
 int string path_password_eye_mask_strike_through 0x7f0e0076
 int string path_password_eye_mask_visible 0x7f0e0077
 int string path_password_strike_through 0x7f0e0078
+int string postText 0x7f0e0080
 int string search_menu_title 0x7f0e0079
 int string status_bar_notification_info_overflow 0x7f0e007a
 int style AlertDialog_AppCompat 0x7f0f0000

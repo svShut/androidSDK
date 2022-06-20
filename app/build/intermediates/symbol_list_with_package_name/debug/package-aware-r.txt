@@ -2470,6 +2470,7 @@ drawable ic_mtrl_checked_circle
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
+drawable like
 drawable m3_appbar_background
 drawable m3_popupmenu_background_overlay
 drawable m3_radiobutton_ripple
@@ -2513,10 +2514,12 @@ drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
 drawable post_avatar_foreground
+drawable repost
 drawable test_custom_background
 drawable test_level_drawable
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
+drawable views
 id ALT
 id BOTTOM_END
 id BOTTOM_START
@@ -2593,6 +2596,9 @@ id aligned
 id all
 id allStates
 id always
+id amountLike
+id amountRepost
+id amountRepost3
 id animateToEnd
 id animateToStart
 id antiClockwise
@@ -2615,8 +2621,10 @@ id bounce
 id bounceBoth
 id bounceEnd
 id bounceStart
+id buttonLike
 id buttonMenu
 id buttonPanel
+id buttonRepost
 id cache_measures
 id callMeasure
 id cancel_button
@@ -2744,6 +2752,7 @@ id ignore
 id ignoreRequest
 id image
 id imageView
+id imageViews
 id immediateStop
 id included
 id info
@@ -2858,6 +2867,7 @@ id percent
 id pin
 id position
 id postLayout
+id postText
 id progress_circular
 id progress_horizontal
 id radio
@@ -3220,6 +3230,9 @@ string abc_searchview_description_voice
 string abc_shareactionprovider_share_with
 string abc_shareactionprovider_share_with_application
 string abc_toolbar_collapse_description
+string amountLike
+string amountRepost
+string amountViews
 string androidx_startup
 string app_name
 string appbar_scrolling_view_behavior
@@ -3316,6 +3329,7 @@ string path_password_eye
 string path_password_eye_mask_strike_through
 string path_password_eye_mask_visible
 string path_password_strike_through
+string postText
 string search_menu_title
 string status_bar_notification_info_overflow
 style AlertDialog_AppCompat

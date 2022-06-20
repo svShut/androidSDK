@@ -1,4 +1,4 @@
-#Mon Jun 20 12:34:31 MSK 2022
+#Mon Jun 20 17:15:48 MSK 2022
 base.2=/Users/sv_shut/AndroidStudioProjects/runetologynmedia/app/build/intermediates/dex/debug/mergeProjectDexDebug/11/classes.dex
 path.2=11/classes.dex
 base.1=/Users/sv_shut/AndroidStudioProjects/runetologynmedia/app/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex
