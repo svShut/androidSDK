@@ -1744,6 +1744,7 @@ color mtrl_textinput_focused_box_stroke_color
 color mtrl_textinput_hovered_box_stroke_color
 color notification_action_color_filter
 color notification_icon_bg_color
+color post_avatar_background
 color primary_dark_material_dark
 color primary_dark_material_light
 color primary_material_dark
@@ -2487,6 +2488,7 @@ drawable material_ic_keyboard_arrow_previous_black_24dp
 drawable material_ic_keyboard_arrow_right_black_24dp
 drawable material_ic_menu_arrow_down_black_24dp
 drawable material_ic_menu_arrow_up_black_24dp
+drawable menu
 drawable mtrl_dialog_background
 drawable mtrl_dropdown_arrow
 drawable mtrl_ic_arrow_drop_down
@@ -2510,6 +2512,7 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable post_avatar_foreground
 drawable test_custom_background
 drawable test_level_drawable
 drawable tooltip_frame_dark
@@ -2612,6 +2615,7 @@ id bounce
 id bounceBoth
 id bounceEnd
 id bounceStart
+id buttonMenu
 id buttonPanel
 id cache_measures
 id callMeasure
@@ -2739,6 +2743,7 @@ id ifRoom
 id ignore
 id ignoreRequest
 id image
+id imageView
 id immediateStop
 id included
 id info
@@ -2946,7 +2951,9 @@ id test_radiobutton_android_button_tint
 id test_radiobutton_app_button_tint
 id text
 id text2
+id textDate
 id textEnd
+id textHeader
 id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
@@ -3183,6 +3190,8 @@ layout text_view_with_theme_line_height
 layout text_view_without_line_height
 mipmap ic_launcher
 mipmap ic_launcher_round
+mipmap post_avatar
+mipmap post_avatar_round
 plurals mtrl_badge_content_description
 string abc_action_bar_home_description
 string abc_action_bar_up_description
@@ -3221,10 +3230,12 @@ string character_counter_overflowed_content_description
 string character_counter_pattern
 string chip_text
 string clear_text_end_icon_content_description
+string date
 string error_icon_content_description
 string exposed_dropdown_menu_content_description
 string fab_transformation_scrim_behavior
 string fab_transformation_sheet_behavior
+string header
 string hide_bottom_view_on_scroll_behavior
 string icon_content_description
 string item_view_role_description

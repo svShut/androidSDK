@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Нмедиа</string>
+    <color name="post_avatar_background">#FFFFFF</color>
 </resources>
