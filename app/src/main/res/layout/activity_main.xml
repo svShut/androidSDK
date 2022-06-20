@@ -55,7 +55,8 @@
         app:layout_constraintStart_toEndOf="@+id/textHeader"
         app:layout_constraintTop_toTopOf="@+id/textHeader"
         app:layout_constraintVertical_bias="0.0"
-        tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+        tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck"
+        android:contentDescription="@string/amountViews" />
 
     <TextView
         android:id="@+id/postText"
@@ -79,7 +80,8 @@
         android:src="@drawable/like"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/postText"
-        tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+        tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck"
+        android:contentDescription="@string/amountViews" />
 
     <ImageButton
         android:id="@+id/buttonRepost"
@@ -91,7 +93,8 @@
         android:src="@drawable/repost"
         app:layout_constraintStart_toEndOf="@+id/amountLike"
         app:layout_constraintTop_toBottomOf="@+id/postText"
-        tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+        tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck"
+        android:contentDescription="@string/amountViews" />
 
     <ImageView
         android:id="@+id/imageViews"
@@ -102,7 +105,8 @@
         android:src="@drawable/views"
         android:layout_marginStart="200dp"
         app:layout_constraintStart_toEndOf="@+id/amountRepost"
-        app:layout_constraintTop_toBottomOf="@+id/postText" />
+        app:layout_constraintTop_toBottomOf="@+id/postText"
+        android:contentDescription="@string/amountViews" />
 
     <TextView
         android:id="@+id/amountLike"

@@ -48,6 +48,10 @@
         "source": "/Users/sv_shut/.gradle/daemon/7.4.2/com.example.ru.netology.nmedia.app-main-28:/mipmap-hdpi/post_avatar.png"
     },
     {
+        "merged": "/Users/sv_shut/.gradle/daemon/7.4.2/com.example.ru.netology.nmedia.app-merged_res-26:/drawable_repost.xml.flat",
+        "source": "/Users/sv_shut/.gradle/daemon/7.4.2/com.example.ru.netology.nmedia.app-main-28:/drawable/repost.xml"
+    },
+    {
         "merged": "/Users/sv_shut/.gradle/daemon/7.4.2/com.example.ru.netology.nmedia.app-merged_res-26:/mipmap-xxhdpi_ic_launcher_round.png.flat",
         "source": "/Users/sv_shut/.gradle/daemon/7.4.2/com.example.ru.netology.nmedia.app-main-28:/mipmap-xxhdpi/ic_launcher_round.png"
     },
@@ -76,10 +80,6 @@
         "source": "/Users/sv_shut/.gradle/daemon/7.4.2/com.example.ru.netology.nmedia.app-main-28:/mipmap-xhdpi/ic_launcher_round.png"
     },
     {
-        "merged": "com.example.ru.netology.nmedia.app-merged_res-26:/drawable_like.xml.flat",
-        "source": "com.example.ru.netology.nmedia.app-main-28:/drawable/like.xml"
-    },
-    {
         "merged": "/Users/sv_shut/.gradle/daemon/7.4.2/com.example.ru.netology.nmedia.app-merged_res-26:/mipmap-anydpi-v26_post_avatar.xml.flat",
         "source": "/Users/sv_shut/.gradle/daemon/7.4.2/com.example.ru.netology.nmedia.app-main-28:/mipmap-anydpi-v26/post_avatar.xml"
     },
@@ -104,16 +104,20 @@
         "source": "/Users/sv_shut/.gradle/daemon/7.4.2/com.example.ru.netology.nmedia.app-main-28:/mipmap-xxhdpi/post_avatar.png"
     },
     {
+        "merged": "/Users/sv_shut/.gradle/daemon/7.4.2/com.example.ru.netology.nmedia.app-merged_res-26:/drawable_like.xml.flat",
+        "source": "/Users/sv_shut/.gradle/daemon/7.4.2/com.example.ru.netology.nmedia.app-main-28:/drawable/like.xml"
+    },
+    {
         "merged": "/Users/sv_shut/.gradle/daemon/7.4.2/com.example.ru.netology.nmedia.app-merged_res-26:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
         "source": "/Users/sv_shut/.gradle/daemon/7.4.2/com.example.ru.netology.nmedia.app-main-28:/mipmap-xxxhdpi/ic_launcher_round.png"
     },
     {
-        "merged": "com.example.ru.netology.nmedia.app-merged_res-26:/drawable_views.xml.flat",
-        "source": "com.example.ru.netology.nmedia.app-main-28:/drawable/views.xml"
-    },
-    {
         "merged": "/Users/sv_shut/.gradle/daemon/7.4.2/com.example.ru.netology.nmedia.app-merged_res-26:/mipmap-xxxhdpi_post_avatar.png.flat",
         "source": "/Users/sv_shut/.gradle/daemon/7.4.2/com.example.ru.netology.nmedia.app-main-28:/mipmap-xxxhdpi/post_avatar.png"
+    },
+    {
+        "merged": "/Users/sv_shut/.gradle/daemon/7.4.2/com.example.ru.netology.nmedia.app-merged_res-26:/drawable_views.xml.flat",
+        "source": "/Users/sv_shut/.gradle/daemon/7.4.2/com.example.ru.netology.nmedia.app-main-28:/drawable/views.xml"
     },
     {
         "merged": "/Users/sv_shut/.gradle/daemon/7.4.2/com.example.ru.netology.nmedia.app-merged_res-26:/drawable_post_avatar_foreground.xml.flat",
@@ -126,9 +130,5 @@
     {
         "merged": "/Users/sv_shut/.gradle/daemon/7.4.2/com.example.ru.netology.nmedia.app-merged_res-26:/mipmap-mdpi_post_avatar.png.flat",
         "source": "/Users/sv_shut/.gradle/daemon/7.4.2/com.example.ru.netology.nmedia.app-main-28:/mipmap-mdpi/post_avatar.png"
-    },
-    {
-        "merged": "com.example.ru.netology.nmedia.app-merged_res-26:/drawable_repost.xml.flat",
-        "source": "com.example.ru.netology.nmedia.app-main-28:/drawable/repost.xml"
     }
 ]
