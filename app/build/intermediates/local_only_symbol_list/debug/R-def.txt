@@ -1,7 +1,6 @@
 R_DEF: Internal format may change without notice
 local
 color black
-color ic_launcher_background
 color post_avatar_background
 color purple_200
 color purple_500
@@ -9,8 +8,7 @@ color purple_700
 color teal_200
 color teal_700
 color white
-drawable ic_launcher_background
-drawable ic_launcher_foreground
+drawable cry_like
 drawable like
 drawable menu
 drawable post_avatar_foreground
@@ -18,7 +16,7 @@ drawable repost
 drawable views
 id amountLike
 id amountRepost
-id amountRepost3
+id amountViews
 id buttonLike
 id buttonMenu
 id buttonRepost
@@ -28,8 +26,6 @@ id postText
 id textDate
 id textHeader
 layout activity_main
-mipmap ic_launcher
-mipmap ic_launcher_round
 mipmap post_avatar
 mipmap post_avatar_round
 string amountLike

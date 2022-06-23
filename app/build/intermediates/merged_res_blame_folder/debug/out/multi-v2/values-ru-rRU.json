@@ -6,11 +6,18 @@
                 {
                     "source": "/Users/sv_shut/AndroidStudioProjects/runetologynmedia/app/src/main/res/values-ru-rRU/strings.xml",
                     "from": {
-                        "startLines": "2,3,4,5",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "55,99,168,266",
-                        "endColumns": "43,68,97,512",
-                        "endOffsets": "94,163,261,774"
+                        "startLines": "8,6,7,2,3,4,5",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "907,779,843,55,99,168,266",
+                        "endColumns": "62,63,63,43,68,97,512",
+                        "endOffsets": "965,838,902,94,163,261,774"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "55,118,182,246,290,359,457",
+                        "endColumns": "62,63,63,43,68,97,512",
+                        "endOffsets": "113,177,241,285,354,452,965"
                     }
                 }
             ]

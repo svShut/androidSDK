@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "com.example.ru.netology.nmedia.app-mergeDebugResources-25:/layout/activity_main.xml",
+        "source": "com.example.ru.netology.nmedia.app-main-28:/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/sv_shut/.gradle/daemon/7.4.2/com.example.ru.netology.nmedia.app-mergeDebugResources-25:/layout/activity_main.xml",
+        "source": "/Users/sv_shut/.gradle/daemon/7.4.2/com.example.ru.netology.nmedia.app-main-28:/layout/activity_main.xml"
+    }
+]

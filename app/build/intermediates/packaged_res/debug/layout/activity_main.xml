@@ -55,7 +55,8 @@
         app:layout_constraintStart_toEndOf="@+id/textHeader"
         app:layout_constraintTop_toTopOf="@+id/textHeader"
         app:layout_constraintVertical_bias="0.0"
-        tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+        tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck"
+        android:contentDescription="@string/amountViews" />
 
     <TextView
         android:id="@+id/postText"
@@ -76,6 +77,7 @@
         android:layout_marginStart="24dp"
         android:layout_marginTop="16dp"
         android:background="@android:color/transparent"
+        android:contentDescription="@string/amountViews"
         android:src="@drawable/like"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/postText"
@@ -91,7 +93,8 @@
         android:src="@drawable/repost"
         app:layout_constraintStart_toEndOf="@+id/amountLike"
         app:layout_constraintTop_toBottomOf="@+id/postText"
-        tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+        tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck"
+        android:contentDescription="@string/amountViews" />
 
     <ImageView
         android:id="@+id/imageViews"
@@ -100,9 +103,11 @@
         android:layout_marginTop="16dp"
         android:background="@android:color/transparent"
         android:src="@drawable/views"
-        android:layout_marginStart="200dp"
+        app:layout_constraintEnd_toStartOf="@id/amountViews"
         app:layout_constraintStart_toEndOf="@+id/amountRepost"
-        app:layout_constraintTop_toBottomOf="@+id/postText" />
+        app:layout_constraintStart_toStartOf="@id/amountViews"
+        app:layout_constraintTop_toBottomOf="@+id/postText"
+        android:contentDescription="@string/amountViews" />
 
     <TextView
         android:id="@+id/amountLike"
@@ -125,14 +130,16 @@
         app:layout_constraintTop_toTopOf="@+id/buttonLike" />
 
     <TextView
-        android:id="@+id/amountRepost3"
+        android:id="@+id/amountViews"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/amountViews"
         android:layout_marginStart="10dp"
-        app:layout_constraintBottom_toBottomOf="@+id/buttonLike"
+        android:text="@string/amountViews"
+        app:layout_constraintBottom_toBottomOf="@+id/imageViews"
         app:layout_constraintStart_toEndOf="@+id/imageViews"
-        app:layout_constraintTop_toTopOf="@+id/buttonLike" />
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginEnd="20dp"
+        app:layout_constraintTop_toTopOf="@+id/imageViews" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

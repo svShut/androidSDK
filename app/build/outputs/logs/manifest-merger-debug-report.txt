@@ -4,6 +4,7 @@ ADDED from /Users/sv_shut/AndroidStudioProjects/runetologynmedia/app/src/main/An
 INJECTED from /Users/sv_shut/AndroidStudioProjects/runetologynmedia/app/src/main/AndroidManifest.xml:2:1-27:12
 INJECTED from /Users/sv_shut/AndroidStudioProjects/runetologynmedia/app/src/main/AndroidManifest.xml:2:1-27:12
 INJECTED from /Users/sv_shut/AndroidStudioProjects/runetologynmedia/app/src/main/AndroidManifest.xml:2:1-27:12
+MERGED from [androidx.databinding:viewbinding:7.2.1] /Users/sv_shut/.gradle/caches/transforms-3/bb826c9a79f0f25cfc80ba0b3bcdb947/transformed/viewbinding-7.2.1/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.core:core-ktx:1.8.0] /Users/sv_shut/.gradle/caches/transforms-3/90c0488997ac55e498e1679e3853d40a/transformed/core-ktx-1.8.0/AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.android.material:material:1.6.1] /Users/sv_shut/.gradle/caches/transforms-3/393975797a1628d8d9114c6acc5a42ff/transformed/material-1.6.1/AndroidManifest.xml:17:1-26:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/sv_shut/.gradle/caches/transforms-3/6322700ac163dd5a620bdf66e181d574/transformed/constraintlayout-2.1.4/AndroidManifest.xml:2:1-11:12
@@ -119,6 +120,8 @@ uses-sdk
 INJECTED from /Users/sv_shut/AndroidStudioProjects/runetologynmedia/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/sv_shut/AndroidStudioProjects/runetologynmedia/app/src/main/AndroidManifest.xml
 INJECTED from /Users/sv_shut/AndroidStudioProjects/runetologynmedia/app/src/main/AndroidManifest.xml
+MERGED from [androidx.databinding:viewbinding:7.2.1] /Users/sv_shut/.gradle/caches/transforms-3/bb826c9a79f0f25cfc80ba0b3bcdb947/transformed/viewbinding-7.2.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.databinding:viewbinding:7.2.1] /Users/sv_shut/.gradle/caches/transforms-3/bb826c9a79f0f25cfc80ba0b3bcdb947/transformed/viewbinding-7.2.1/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.core:core-ktx:1.8.0] /Users/sv_shut/.gradle/caches/transforms-3/90c0488997ac55e498e1679e3853d40a/transformed/core-ktx-1.8.0/AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.core:core-ktx:1.8.0] /Users/sv_shut/.gradle/caches/transforms-3/90c0488997ac55e498e1679e3853d40a/transformed/core-ktx-1.8.0/AndroidManifest.xml:5:5-7:41
 MERGED from [com.google.android.material:material:1.6.1] /Users/sv_shut/.gradle/caches/transforms-3/393975797a1628d8d9114c6acc5a42ff/transformed/material-1.6.1/AndroidManifest.xml:20:5-22:41
