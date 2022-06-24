@@ -5,6 +5,9 @@ data class Post (
     val textHeader: String,
     val textDate: String,
     val text: String,
+    var likeAmount: Int,
+    var repostAmount: Int,
+    var viewsAmount: Int,
     var byLikedMe: Boolean
 
 )
