@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.ru.netology.nmedia.app-mergeDebugResources-24:/values-af/values-af.xml",
+            "outputFile": "com.example.ru.netology.nmedia.app-mergeDebugResources-31:/values-af/values-af.xml",
             "map": [
                 {
                     "source": "/Users/sv_shut/.gradle/caches/transforms-3/f15edc779ccefb7399e64c271d76688b/transformed/core-1.8.0/res/values-af/values-af.xml",

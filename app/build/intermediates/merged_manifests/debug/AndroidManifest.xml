@@ -22,7 +22,7 @@
         android:testOnly="true"
         android:theme="@style/Theme.Runetologynmedia" >
         <activity
-            android:name="com.example.ru.netology.nmedia.MainActivity"
+            android:name="com.example.ru.netology.nmedia.ui.MainActivity"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

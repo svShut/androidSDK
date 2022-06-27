@@ -2595,7 +2595,7 @@ int id allStates 0x7f08004a
 int id always 0x7f08004b
 int id amountLike 0x7f08004c
 int id amountRepost 0x7f08004d
-int id amountViews 0x7f0801ef
+int id amountViews 0x7f08004e
 int id animateToEnd 0x7f08004f
 int id animateToStart 0x7f080050
 int id antiClockwise 0x7f080051
