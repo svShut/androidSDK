@@ -27,11 +27,6 @@ class MainActivity : AppCompatActivity() {
                 amountRepost.text = counter(post.repostAmount).toString()
                 amountViews.text = counter(post.viewsAmount).toString()
 
-//                buttonRepost.setOnClickListener {
-//                    buttonRepost.setImageResource(R.drawable.repost)
-////                    post.repostAmount++
-//                    amountRepost.text = counter(post.repostAmount).toString()
-//                }
 
                 buttonLike.setImageResource(
                     if (post.byLikedMe) R.drawable.cry_like else R.drawable.like
