@@ -35,8 +35,8 @@
 23-->/Users/sv_shut/AndroidStudioProjects/runetologynmedia/app/src/main/AndroidManifest.xml:14:9-54
 24        <activity
 24-->/Users/sv_shut/AndroidStudioProjects/runetologynmedia/app/src/main/AndroidManifest.xml:16:9-24:20
-25            android:name="com.example.ru.netology.nmedia.MainActivity"
-25-->/Users/sv_shut/AndroidStudioProjects/runetologynmedia/app/src/main/AndroidManifest.xml:17:13-41
+25            android:name="com.example.ru.netology.nmedia.ui.MainActivity"
+25-->/Users/sv_shut/AndroidStudioProjects/runetologynmedia/app/src/main/AndroidManifest.xml:17:13-44
 26            android:exported="true" >
 26-->/Users/sv_shut/AndroidStudioProjects/runetologynmedia/app/src/main/AndroidManifest.xml:18:13-36
 27            <intent-filter>
