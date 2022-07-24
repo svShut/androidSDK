@@ -19,10 +19,8 @@ class MainActivity : AppCompatActivity() {
 
         val viewModel: PostViewModel by viewModels()
         val adapter = PostsAdapter(
-            {
-            viewModel.onLikeClicked(it.id.toLong()) },
-        {
-            viewModel.onRepostClicked(it.id.toLong())}
+            onLikeListener = { viewModel.onLikeClicked(it.id.toLong()) },
+            onRepostListener = { viewModel.onRepostClicked(it.id.toLong())}
         )
 
         binding.List.adapter = adapter
