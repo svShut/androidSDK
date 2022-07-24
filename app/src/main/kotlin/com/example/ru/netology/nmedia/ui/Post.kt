@@ -8,6 +8,6 @@ data class Post (
     val likeAmount: Int,
     val repostAmount: Int,
     val viewsAmount: Int,
-    val byLikedMe: Boolean = false
+    var byLikedMe: Boolean = false
 
 )

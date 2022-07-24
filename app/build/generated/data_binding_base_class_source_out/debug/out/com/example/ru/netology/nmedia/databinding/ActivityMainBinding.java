@@ -4,12 +4,10 @@ package com.example.ru.netology.nmedia.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ImageButton;
-import android.widget.ImageView;
-import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
+import androidx.recyclerview.widget.RecyclerView;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.example.ru.netology.nmedia.R;
@@ -22,56 +20,11 @@ public final class ActivityMainBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
-  public final TextView amountLike;
+  public final RecyclerView List;
 
-  @NonNull
-  public final TextView amountRepost;
-
-  @NonNull
-  public final TextView amountViews;
-
-  @NonNull
-  public final ImageButton buttonLike;
-
-  @NonNull
-  public final ImageButton buttonMenu;
-
-  @NonNull
-  public final ImageButton buttonRepost;
-
-  @NonNull
-  public final ImageView imageView;
-
-  @NonNull
-  public final ImageView imageViews;
-
-  @NonNull
-  public final TextView postText;
-
-  @NonNull
-  public final TextView textDate;
-
-  @NonNull
-  public final TextView textHeader;
-
-  private ActivityMainBinding(@NonNull ConstraintLayout rootView, @NonNull TextView amountLike,
-      @NonNull TextView amountRepost, @NonNull TextView amountViews,
-      @NonNull ImageButton buttonLike, @NonNull ImageButton buttonMenu,
-      @NonNull ImageButton buttonRepost, @NonNull ImageView imageView,
-      @NonNull ImageView imageViews, @NonNull TextView postText, @NonNull TextView textDate,
-      @NonNull TextView textHeader) {
+  private ActivityMainBinding(@NonNull ConstraintLayout rootView, @NonNull RecyclerView List) {
     this.rootView = rootView;
-    this.amountLike = amountLike;
-    this.amountRepost = amountRepost;
-    this.amountViews = amountViews;
-    this.buttonLike = buttonLike;
-    this.buttonMenu = buttonMenu;
-    this.buttonRepost = buttonRepost;
-    this.imageView = imageView;
-    this.imageViews = imageViews;
-    this.postText = postText;
-    this.textDate = textDate;
-    this.textHeader = textHeader;
+    this.List = List;
   }
 
   @Override
@@ -101,75 +54,13 @@ public final class ActivityMainBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.amountLike;
-      TextView amountLike = ViewBindings.findChildViewById(rootView, id);
-      if (amountLike == null) {
+      id = R.id.List;
+      RecyclerView List = ViewBindings.findChildViewById(rootView, id);
+      if (List == null) {
         break missingId;
       }
 
-      id = R.id.amountRepost;
-      TextView amountRepost = ViewBindings.findChildViewById(rootView, id);
-      if (amountRepost == null) {
-        break missingId;
-      }
-
-      id = R.id.amountViews;
-      TextView amountViews = ViewBindings.findChildViewById(rootView, id);
-      if (amountViews == null) {
-        break missingId;
-      }
-
-      id = R.id.buttonLike;
-      ImageButton buttonLike = ViewBindings.findChildViewById(rootView, id);
-      if (buttonLike == null) {
-        break missingId;
-      }
-
-      id = R.id.buttonMenu;
-      ImageButton buttonMenu = ViewBindings.findChildViewById(rootView, id);
-      if (buttonMenu == null) {
-        break missingId;
-      }
-
-      id = R.id.buttonRepost;
-      ImageButton buttonRepost = ViewBindings.findChildViewById(rootView, id);
-      if (buttonRepost == null) {
-        break missingId;
-      }
-
-      id = R.id.imageView;
-      ImageView imageView = ViewBindings.findChildViewById(rootView, id);
-      if (imageView == null) {
-        break missingId;
-      }
-
-      id = R.id.imageViews;
-      ImageView imageViews = ViewBindings.findChildViewById(rootView, id);
-      if (imageViews == null) {
-        break missingId;
-      }
-
-      id = R.id.postText;
-      TextView postText = ViewBindings.findChildViewById(rootView, id);
-      if (postText == null) {
-        break missingId;
-      }
-
-      id = R.id.textDate;
-      TextView textDate = ViewBindings.findChildViewById(rootView, id);
-      if (textDate == null) {
-        break missingId;
-      }
-
-      id = R.id.textHeader;
-      TextView textHeader = ViewBindings.findChildViewById(rootView, id);
-      if (textHeader == null) {
-        break missingId;
-      }
-
-      return new ActivityMainBinding((ConstraintLayout) rootView, amountLike, amountRepost,
-          amountViews, buttonLike, buttonMenu, buttonRepost, imageView, imageViews, postText,
-          textDate, textHeader);
+      return new ActivityMainBinding((ConstraintLayout) rootView, List);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

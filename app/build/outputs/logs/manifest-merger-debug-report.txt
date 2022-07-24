@@ -14,6 +14,7 @@ MERGED from [com.google.android.material:material:1.6.1] /Users/sv_shut/.gradle/
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/sv_shut/.gradle/caches/transforms-3/6322700ac163dd5a620bdf66e181d574/transformed/constraintlayout-2.1.4/AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat:1.4.2] /Users/sv_shut/.gradle/caches/transforms-3/ed9d73a0e02916fb123a181530f0ba80/transformed/appcompat-1.4.2/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/sv_shut/.gradle/caches/transforms-3/7ed6498e6817ac08ad4d97e6caf97a64/transformed/viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/sv_shut/.gradle/caches/transforms-3/7998738990dc63eeb0e93cba5d301e36/transformed/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.fragment:fragment:1.3.6] /Users/sv_shut/.gradle/caches/transforms-3/07055e8dc3efe6890493d8c33ab47666/transformed/fragment-1.3.6/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.appcompat:appcompat-resources:1.4.2] /Users/sv_shut/.gradle/caches/transforms-3/aabd1ea3fc85ac57f25eb8c839b90ef0/transformed/appcompat-resources-1.4.2/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] /Users/sv_shut/.gradle/caches/transforms-3/ae8583f9b463d79f78143802efef6e6b/transformed/emoji2-views-helper-1.0.0/AndroidManifest.xml:17:1-24:12
@@ -28,7 +29,6 @@ MERGED from [androidx.activity:activity:1.4.0] /Users/sv_shut/.gradle/caches/tra
 MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/sv_shut/.gradle/caches/transforms-3/1fb90f12356a9f495cc8a9046561b8d4/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/sv_shut/.gradle/caches/transforms-3/a39c283a4c473d075fc1f793a0d12b85/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.loader:loader:1.0.0] /Users/sv_shut/.gradle/caches/transforms-3/502a381a801e691bb640a496b7b2f750/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/sv_shut/.gradle/caches/transforms-3/7998738990dc63eeb0e93cba5d301e36/transformed/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.customview:customview:1.1.0] /Users/sv_shut/.gradle/caches/transforms-3/9e1ad127b5e69b8edb7e3258aa35f084/transformed/customview-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.core:core:1.8.0] /Users/sv_shut/.gradle/caches/transforms-3/f15edc779ccefb7399e64c271d76688b/transformed/core-1.8.0/AndroidManifest.xml:17:1-26:12
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/sv_shut/.gradle/caches/transforms-3/1f9cdf0754158791d4679432570002a6/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
@@ -146,6 +146,8 @@ MERGED from [androidx.appcompat:appcompat:1.4.2] /Users/sv_shut/.gradle/caches/t
 MERGED from [androidx.appcompat:appcompat:1.4.2] /Users/sv_shut/.gradle/caches/transforms-3/ed9d73a0e02916fb123a181530f0ba80/transformed/appcompat-1.4.2/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/sv_shut/.gradle/caches/transforms-3/7ed6498e6817ac08ad4d97e6caf97a64/transformed/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/sv_shut/.gradle/caches/transforms-3/7ed6498e6817ac08ad4d97e6caf97a64/transformed/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/sv_shut/.gradle/caches/transforms-3/7998738990dc63eeb0e93cba5d301e36/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/sv_shut/.gradle/caches/transforms-3/7998738990dc63eeb0e93cba5d301e36/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.fragment:fragment:1.3.6] /Users/sv_shut/.gradle/caches/transforms-3/07055e8dc3efe6890493d8c33ab47666/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.fragment:fragment:1.3.6] /Users/sv_shut/.gradle/caches/transforms-3/07055e8dc3efe6890493d8c33ab47666/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.appcompat:appcompat-resources:1.4.2] /Users/sv_shut/.gradle/caches/transforms-3/aabd1ea3fc85ac57f25eb8c839b90ef0/transformed/appcompat-resources-1.4.2/AndroidManifest.xml:20:5-22:41
@@ -174,8 +176,6 @@ MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/sv_shut/.gr
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/sv_shut/.gradle/caches/transforms-3/a39c283a4c473d075fc1f793a0d12b85/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.loader:loader:1.0.0] /Users/sv_shut/.gradle/caches/transforms-3/502a381a801e691bb640a496b7b2f750/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.loader:loader:1.0.0] /Users/sv_shut/.gradle/caches/transforms-3/502a381a801e691bb640a496b7b2f750/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/sv_shut/.gradle/caches/transforms-3/7998738990dc63eeb0e93cba5d301e36/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/sv_shut/.gradle/caches/transforms-3/7998738990dc63eeb0e93cba5d301e36/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.customview:customview:1.1.0] /Users/sv_shut/.gradle/caches/transforms-3/9e1ad127b5e69b8edb7e3258aa35f084/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.customview:customview:1.1.0] /Users/sv_shut/.gradle/caches/transforms-3/9e1ad127b5e69b8edb7e3258aa35f084/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.core:core:1.8.0] /Users/sv_shut/.gradle/caches/transforms-3/f15edc779ccefb7399e64c271d76688b/transformed/core-1.8.0/AndroidManifest.xml:20:5-22:41
