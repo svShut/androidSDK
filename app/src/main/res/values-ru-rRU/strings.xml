@@ -7,4 +7,7 @@
     <string name="amountRepost" translatable="false">3</string>
     <string name="amountViews" translatable="false">50</string>
     <string name="amountLike" translatable="false">14</string>
+    <string name="remove" translatable="false">Удалить</string>
+    <string name="edit" translatable="false">Редактировать</string>
+    <string name="empty_text_error" translatable="false">Пустой текст</string>
 </resources>

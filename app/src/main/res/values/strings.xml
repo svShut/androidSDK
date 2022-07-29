@@ -6,7 +6,7 @@
     <string name="amountLike" translatable="false" />
     <string name="amountRepost" translatable="false"/>
     <string name="amountViews" translatable="false"/>
-    <string name="remove">Remove</string>
-    <string name="empty_text_error">Text is empty</string>
-    <string name="edit">Edit</string>
+    <string name="remove" translatable="false">Remove</string>
+    <string name="empty_text_error" translatable="false">Text is empty</string>
+    <string name="edit" translatable="false">Edit</string>
 </resources>
