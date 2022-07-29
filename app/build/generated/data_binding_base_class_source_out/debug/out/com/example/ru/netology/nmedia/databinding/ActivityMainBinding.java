@@ -4,6 +4,8 @@ package com.example.ru.netology.nmedia.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.EditText;
+import android.widget.ImageView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
@@ -22,9 +24,18 @@ public final class ActivityMainBinding implements ViewBinding {
   @NonNull
   public final RecyclerView List;
 
-  private ActivityMainBinding(@NonNull ConstraintLayout rootView, @NonNull RecyclerView List) {
+  @NonNull
+  public final EditText content;
+
+  @NonNull
+  public final ImageView save;
+
+  private ActivityMainBinding(@NonNull ConstraintLayout rootView, @NonNull RecyclerView List,
+      @NonNull EditText content, @NonNull ImageView save) {
     this.rootView = rootView;
     this.List = List;
+    this.content = content;
+    this.save = save;
   }
 
   @Override
@@ -60,7 +71,19 @@ public final class ActivityMainBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityMainBinding((ConstraintLayout) rootView, List);
+      id = R.id.content;
+      EditText content = ViewBindings.findChildViewById(rootView, id);
+      if (content == null) {
+        break missingId;
+      }
+
+      id = R.id.save;
+      ImageView save = ViewBindings.findChildViewById(rootView, id);
+      if (save == null) {
+        break missingId;
+      }
+
+      return new ActivityMainBinding((ConstraintLayout) rootView, List, content, save);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

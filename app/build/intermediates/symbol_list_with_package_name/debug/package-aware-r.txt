@@ -2459,6 +2459,7 @@ drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
+drawable ic_baseline_send_24
 drawable ic_clock_black_24dp
 drawable ic_keyboard_black_24dp
 drawable ic_m3_chip_check
@@ -2701,6 +2702,7 @@ id easeIn
 id easeInOut
 id easeOut
 id east
+id edit
 id edit_query
 id edittext_dropdown_editable
 id edittext_dropdown_noneditable
@@ -2872,6 +2874,7 @@ id progress_horizontal
 id radio
 id ratio
 id rectangles
+id remove
 id reverseSawtooth
 id right
 id rightToLeft
@@ -2879,6 +2882,7 @@ id right_icon
 id right_side
 id rounded
 id row_index_key
+id save
 id save_non_transition_alpha
 id save_overlay_view
 id sawtooth
@@ -3198,6 +3202,7 @@ layout text_view_with_line_height_from_layout
 layout text_view_with_line_height_from_style
 layout text_view_with_theme_line_height
 layout text_view_without_line_height
+menu post_menu
 mipmap post_avatar
 mipmap post_avatar_round
 plurals mtrl_badge_content_description
@@ -3242,6 +3247,8 @@ string character_counter_pattern
 string chip_text
 string clear_text_end_icon_content_description
 string date
+string edit
+string empty_text_error
 string error_icon_content_description
 string exposed_dropdown_menu_content_description
 string fab_transformation_scrim_behavior
@@ -3328,6 +3335,7 @@ string path_password_eye_mask_strike_through
 string path_password_eye_mask_visible
 string path_password_strike_through
 string postText
+string remove
 string search_menu_title
 string status_bar_notification_info_overflow
 style AlertDialog_AppCompat

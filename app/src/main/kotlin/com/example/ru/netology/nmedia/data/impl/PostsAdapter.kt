@@ -2,25 +2,30 @@ package com.example.ru.netology.nmedia.data.impl
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
+import android.widget.PopupMenu
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
 import com.example.ru.netology.nmedia.R
 import com.example.ru.netology.nmedia.databinding.CardPostBinding
 import com.example.ru.netology.nmedia.ui.Post
+interface PostInteractionListener{
+    fun onEdit(post: Post)
+    fun onLike(post: Post)
+    fun onRepost(post: Post)
+    fun onRemove(post: Post)
+}
 
-typealias OnLikeListener = (post: Post) -> Unit
-typealias onRepostListener = (post: Post) -> Unit
+
 
 class PostsAdapter(
-    private val onLikeListener: OnLikeListener,
-    private val onRepostListener: onRepostListener
+    private val listener: PostInteractionListener,
 ) : ListAdapter<Post, PostViewHolder>(PostDiffCallback()) {
 
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): PostViewHolder {
         val binding = CardPostBinding.inflate(LayoutInflater.from(parent.context), parent, false)
-        return PostViewHolder(binding, onLikeListener, onRepostListener)
+        return PostViewHolder(binding, listener)
     }
 
 
@@ -32,8 +37,7 @@ class PostsAdapter(
 
 class PostViewHolder(
     private val binding: CardPostBinding,
-    private val onLikeListener: OnLikeListener,
-    private val onRepostListener: onRepostListener
+    private val listener: PostInteractionListener
     ) : RecyclerView.ViewHolder(binding.root) {
 
     fun bind(post: Post) {
@@ -45,16 +49,39 @@ class PostViewHolder(
             amountRepost.text = counter(post.repostAmount).toString()
             amountViews.text = counter(post.viewsAmount).toString()
 
+
             buttonRepost.setOnClickListener {
-                onRepostListener(post)
+                listener.onRepost(post)
             }
             buttonLike.setImageResource(
                 if (post.byLikedMe) R.drawable.cry_like else R.drawable.like
             )
+
+            buttonMenu.setOnClickListener {
+                PopupMenu(it.context, it).apply {
+                    inflate(R.menu.post_menu)
+                    show()
+                    setOnMenuItemClickListener { menuItem ->
+                        when (menuItem.itemId) {
+                            R.id.remove -> {
+                                listener.onRemove(post)
+                                true
+                            }
+                            R.id.edit -> {
+                                listener.onEdit(post)
+                                true
+                            }
+                            else -> false
+                        }
+                    }
+                }
+            }
             buttonLike.setOnClickListener {
-                onLikeListener(post)
+                listener.onLike(post)
 
             }
+
+
 
         }
     }

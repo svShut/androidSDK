@@ -8,11 +8,38 @@
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/List"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/content"
         app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
         tools:listitem="@layout/card_post"
         />
+
+    <EditText
+        android:id="@+id/content"
+        app:layout_constraintEnd_toStartOf="@+id/save"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:padding="16dp"
+        android:background="@color/white"
+        android:importantForAutofill="no"
+        android:inputType="textMultiLine"
+        android:hint="@string/app_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"/>
+
+    <ImageView
+        android:id="@+id/save"
+        android:padding="16dp"
+        app:srcCompat="@drawable/ic_baseline_send_24"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
 
 
 
